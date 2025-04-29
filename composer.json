@@ -1,0 +1,23 @@
+{
+    "name": "wotvenxie/truckershub-api-client",
+    "description": "Unofficial Laravel-compatible API client for the TruckersHub API",
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.0",
+        "nesbot/carbon": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Wotvenxie\\TruckersHubApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wot Venxie",
+            "email": "you@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
