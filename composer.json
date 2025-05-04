@@ -18,6 +18,12 @@
             "email": "you@example.com"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "minimum-stability": "dev",  // Allows unstable versions
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/WoTVenxie/truckershub-laravel-client"
+        }
+    ]
 }
